@@ -1,5 +1,5 @@
 import React from "react";
-
+import SoniImage from './assets/soni.jpeg';
 const AboutSection = () => (
   <section
   id="about"
@@ -53,11 +53,12 @@ const AboutSection = () => (
    {/* Right side - Profile Image */}
 <div className="flex-1 flex justify-center md:justify-end">
   <div className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-cyan-400 shadow-xl">
-    <img
-      src="src/assets/soni.jpeg"
-      alt="Soni Kumari"
-      className="w-full h-full object-cover object-[center_30%]"
-    />
+<img
+  src={SoniImage}
+  alt="Soni Kumari"
+  className="w-full h-full object-cover object-[center_30%]"
+/>
+
   </div>
 </div>
 
