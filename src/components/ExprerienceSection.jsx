@@ -5,11 +5,9 @@ import Section from "./Section";
       {
         role: "Academic Coordinator",
         company: "NavGurukul",
-        period: "May 2025 – August 2025",
+        period: "May 2025 – Aug 2025",
         description: [
-          "Served as Academic Coordinator, managing academic activities, organizing learning sessions, guiding peers in skill development, coordinating project work, and ensuring smooth communication between students and faculty.",
-          "Organized academic schedules and coordinated assessments to improve learning outcomes.",
-          "Encouraged Agile practices and clean UI standards during peer reviews."
+          "Maintained daily attendance records for 75+ students, designed and facilitated engaging learning activities to address academic challenges, ensured classroom discipline, and collaborated with mentors to enhance overall academic outcomes."
         ],
       },
     ];
