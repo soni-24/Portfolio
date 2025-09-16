@@ -22,7 +22,7 @@ const AboutSection = () => (
         </p>
 
         <a
-          href="https://drive.google.com/file/d/1M4U57lzrmWPrHCM5wCJStcIJ0qyf1mPA/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1v2Idih-psDoD7zDtENYKjpCUgtpOnztc/view?usp=drive_link"
           download="Soni_Kumari_CV.pdf"
           className="inline-block bg-cyan-400 hover:bg-cyan-500 transition-colors text-white py-3 px-8 rounded-full text-lg font-semibold shadow-lg mt-6"
         >
