@@ -1,5 +1,5 @@
 import React from "react";
-import SoniImage from './assets/soni.jpeg';
+import SoniImage from "../assets/soni.jpeg";
 const AboutSection = () => (
   <section
   id="about"

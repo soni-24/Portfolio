@@ -1,21 +1,33 @@
 import React from 'react';
 import Section from "./Section";
 
+import htmlIcon from "../assets/html.png";
+import cssIcon from "../assets/css.png";
+import jsIcon from "../assets/js.png";
+import reactIcon from "../assets/react.svg";
+
+import gitGithubIcon from "../assets/git&gitub.png";
+import netlifyIcon from "../assets/netlify.png";
+import vscodeIcon from "../assets/VScode.png";
+import tailwindIcon from "../assets/Tailwind.jpg";
+
+
 const SkillsSection = () => {
   // Skills data with inline SVG icons for each skill
-  const technicalSkills = [
-  { name: "HTML", icon: <img src="src/assets/html.png" alt="HTML" className="h-8 w-8" /> },
-  { name: "CSS", icon: <img src="src/assets/css.png" alt="CSS" className="h-8 w-8" /> },
-  { name: "JavaScript", icon: <img src="src/assets/js.png" alt="JavaScript" className="h-8 w-8" /> },
-  { name: "React.js", icon: <img src="src/assets/react.svg" alt="React.js" className="h-8 w-8" /> },
+ const technicalSkills = [
+  { name: "HTML", icon: <img src={htmlIcon} alt="HTML" className="h-8 w-8" /> },
+  { name: "CSS", icon: <img src={cssIcon} alt="CSS" className="h-8 w-8" /> },
+  { name: "JavaScript", icon: <img src={jsIcon} alt="JavaScript" className="h-8 w-8" /> },
+  { name: "React.js", icon: <img src={reactIcon} alt="React.js" className="h-8 w-8" /> },
 ];
 
 const tools = [
-  { name: "Git & GitHub", icon: <img src="src/assets/git&gitub.png" alt="GitHub" className="h-8 w-8" /> },
-  { name: "Netlify", icon: <img src="src/assets/netlify.png" alt="Netlify" className="h-8 w-8" /> },
-  { name: "VS Code", icon: <img src="src/assets/VScode.png" alt="VS Code" className="h-8 w-8" /> },
-  { name: "Tailwind CSS", icon: <img src="src/assets/Tailwind.jpg" alt="Tailwind CSS" className="h-8 w-8" /> },
+  { name: "Git & GitHub", icon: <img src={gitGithubIcon} alt="GitHub" className="h-8 w-8" /> },
+  { name: "Netlify", icon: <img src={netlifyIcon} alt="Netlify" className="h-8 w-8" /> },
+  { name: "VS Code", icon: <img src={vscodeIcon} alt="VS Code" className="h-8 w-8" /> },
+  { name: "Tailwind CSS", icon: <img src={tailwindIcon} alt="Tailwind CSS" className="h-8 w-8" /> },
 ];
+
 
 
   return (
